@@ -23,6 +23,6 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Install Cobhan jar
-      run: mvn install:install-file -Dfile=./cobhan.jar -DgroupId=com.godaddy.cobhan -DartifactId=cobhan -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=false
+      run: mvn install:install-file -Dfile=./cobhan.jar -DgroupId=com.godaddy.cobhan -DartifactId=cobhan -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
     - name: Build with Maven
       run: mvn -B package --file pom.xml
