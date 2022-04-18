@@ -1,4 +1,6 @@
-package com.godaddy.cobhan;
+package com.godaddy.asherah;
+
+import com.godaddy.cobhan.Cobhan;
 
 public class Asherah {
     public static void SetupJson(String configJson) throws Exception {

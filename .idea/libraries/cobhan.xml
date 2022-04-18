@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cobhan">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cobhan.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

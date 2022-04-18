@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.concurrent.TimeUnit;
 
+import com.godaddy.asherah.Asherah;
+
 import org.junit.Test;
 
 public class AsherahTest {

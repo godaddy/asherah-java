@@ -1,7 +1,8 @@
-package com.godaddy.cobhan;
+package com.godaddy.asherah;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+import com.godaddy.cobhan.Cobhan;
 import com.sun.jna.Native;
 
 public class NativeAsherah {

@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="asherah:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/asherah_jar</output-path>
+    <root id="archive" name="asherah.jar">
+      <element id="module-output" name="asherah" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/java/dev/jna/jna/5.11.0/jna-5.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/cobhan.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/5.11.0/jna-platform-5.11.0.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/pom.xml" />
+    </root>
+  </artifact>
+</component>
