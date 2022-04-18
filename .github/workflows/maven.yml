@@ -24,5 +24,7 @@ jobs:
         cache: maven
     - name: Install Cobhan jar
       run: mvn install:install-file -Dfile=./cobhan.jar -DgroupId=com.godaddy.cobhan -DartifactId=cobhan -Dversion=1.0-SNAPSHOT -Dpackaging=jar -DgeneratePom=true
+    - name: Download Asherah-Cobhan for test
+      run: wget https://github.com/godaddy/asherah-cobhan/releases/download/v0.4.14/libasherah-x64.so
     - name: Build with Maven
       run: mvn -B package --file pom.xml
